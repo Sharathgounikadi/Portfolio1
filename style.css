@@ -1,0 +1,301 @@
+* {
+    font-family: "Sora";
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #ebfeff;
+  }
+  
+  #heading {
+    margin: 0;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 28px;
+    padding-right: 144px;
+    padding-left: 144px;
+    border-bottom: 1px solid black;
+  }
+  
+  #navigation-buttons-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .navigation-button {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  .navigation-button.active {
+    color: #000;
+  }
+  
+  #heading {
+    font-size: 30px;
+  }
+
+/* About me Section */
+
+#about-me-section {
+    display: flex;
+    background-color: white;
+    padding-left: 144px;
+    padding-right: 144px;
+    padding-top: 58px;
+    padding-bottom: 58px;
+    gap: 87px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #about-me-section-image {
+    width: 500px;
+    height: 500px;
+  }
+  
+  #about-me-heading {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #457b9d;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  #about-me-subheading {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 48px;
+  }
+  
+  #about-me-description {
+    color: #455a64;
+    text-align: justify;
+    width: 564px;
+    font-size: 20px;
+  }
+
+/* Contact me */
+#contact-me-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 47px;
+    padding-bottom: 36px;
+    padding-left: 145px;
+}
+
+#contact-me-heading {
+    margin: 0;
+    color: #457B9D;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+
+#contact-me-subheading {
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 11px;
+}
+
+#email {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#profile-icons-container {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 81px;
+}
+
+#copyright {
+    font-size: 20px;
+}
+
+
+/* Hero Section */
+#hero-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 164px;
+    padding-bottom: 130px;
+    gap: 54px;
+  }
+  #hello-text {
+    color: #457b9d;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400;
+    margin-bottom: 12px;
+  }
+  
+  #name-heading {
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 14px;
+  }
+  
+  #hero-section-about-me {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    width: 651px;
+    text-align: justify;
+    margin-bottom: 45px;
+  }
+  
+  #image-background {
+    border-radius: 40px;
+    background: #457b9d;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    height: 390px;
+    position: relative;
+  }
+  
+  #hero-image {
+    width: 400px;
+    height: 390px;
+    position: absolute;
+    border-radius: 40px;
+  }
+  
+  #hero-section-buttons-container {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .hero-section-button {
+    width: 274px;
+    height: 64px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #457b9d;
+    background: rgba(69, 123, 157, 0.1);
+    color: #457B9D;
+  }
+  
+  .hero-section-button.active {
+    border: none;
+    background: #457b9d;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+  }
+
+
+
+  /* Project section */
+  #projects-section {
+    display: flex;
+    background-color: white;
+    padding-top: 73px;
+    padding-bottom: 91px;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 146px;
+    padding-right: 146px;
+  }
+  
+  #projects-section-heading {
+    margin: 0;
+    margin-bottom: 28px;
+    color: #457b9d;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  #projects-section-subheading {
+    margin: 0;
+    margin-bottom: 54px;
+    font-size: 48px;
+  }
+  
+  .project-card {
+    width: 362px;
+    height: 310px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
+    cursor: pointer;
+  }
+  
+  .project-card-image {
+    width: 363px;
+    height: 198px;
+  }
+  
+  .project-card-heading {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .project-card-description-container {
+    padding-left: 18px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .project-card-description {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .project-card-tag {
+    font-size: 14px;
+    color: #457b9d;
+    font-weight: 400;
+  }
+  
+  .project-card-tags-container {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  #project-cards-container {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+  }
+
+
+  /* skill section  */
+
+  #skills-section {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    align-items: center;
+    flex-direction: column;
+    gap: 26px;
+  }
+  
+  #skills-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  #skills-heading {
+    color: #457b9d;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  #skills-subheading {
+    font-size: 48px;
+    margin: 0;
+  }
